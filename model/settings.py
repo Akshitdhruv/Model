@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-r=@uuhs@j(qlt_-p5&!u9d&m6_2l7p_^by$iu!36@ve05%e0xb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cardialertai.herokuapp.com','127.0.0.1','localhost']
 
 
 # Application definition
