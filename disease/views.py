@@ -135,11 +135,7 @@ def test(request):
             risk="Person have a risk of having heart problem"
         care=""
         if(prediction[0]!=0):
-            care="""_______________________________________________
-            You are at high risk of developing a disease. You need to take the following precautionary care :\n
-            1. To decrease blood hypertension, you need to take precautions on your food habits and decrease stress\n
-            2. To decrease cholestrol levels you need to consume HTL containing food and avoid canned food
-            3. To keep a check on your blood sugar, consume food having no sugar and maintain a healthy lifestyle"""
+            care=""
 
             print('_______________________________________________')
             print('You are at high risk of developing a disease. You need to take the following precautionary care :')
