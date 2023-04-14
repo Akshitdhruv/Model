@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import joblib
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split, GridSearchCV, RandomizedSearchCV
-heart_data = pd.read_csv("D:\\hackathon\\model\\templates\\heart_disease_data.csv")
+heart_data = pd.read_csv("model\\templates\\heart_disease_data.csv")
 heart_data.head()
 
 # %%
